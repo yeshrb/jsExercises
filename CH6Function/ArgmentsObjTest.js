@@ -1,3 +1,7 @@
+/**
+ * Created by ljj on 2016/10/13.
+ * 函数f的f.length能够得到函数参数的个数。arguments对象是传入函数参数的集合，可基于下标访问
+ */
 'use strict';
 function f(x,y,z) {
     if(f.length !== arguments.length) {

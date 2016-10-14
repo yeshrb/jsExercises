@@ -1,3 +1,8 @@
+/**
+ * Created by ljj on 2016/10/13.
+ * 函数的call方法和apply的方法：第一个参数是函数的所有者对象，call的后继参数是传入函数的实参，apply是需要传入一个数组
+ */
+
 function Point(x,y) {
     this.x = x;
     this.y = y;

@@ -1,3 +1,7 @@
+/**
+ * Created by ljj on 2016/10/13.
+ * 将函数赋值给某一对象的属性，可为函数指定所有者
+ */
 'use strict';
 function Point(x,y) {
     this.x = x;
